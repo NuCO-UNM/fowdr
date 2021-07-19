@@ -1,7 +1,7 @@
-# Dispersion relation for the symmetry preserving case
-# Author: Huaiyu Duan (UNM)
-# Ref: arXiv:1901.01546
-
+'''Dispersion relation for the symmetry preserving case
+Author: Huaiyu Duan (UNM)
+Ref: arXiv:1901.01546
+'''
 import numpy as np
 from scipy.integrate import quad
 from scipy.optimize import root, root_scalar, minimize_scalar
