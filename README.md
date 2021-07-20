@@ -7,3 +7,4 @@ To install, please type the following command in a terminal:
 
 Please see `fowdr.ipynb` (or `fowdr.pdf` if you don't use [Jupyter Notebook](https://jupyter.org)) under `doc` for how to use this package.
 
+This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of Nuclear Physics under Award Number DE-SC-0017803.
