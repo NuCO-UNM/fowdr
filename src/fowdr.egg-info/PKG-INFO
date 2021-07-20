@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: fowdr
-Version: 1.0
+Version: 1.1
 Summary: A package that computes the dispersion relations of the fast flavor oscillations wave in dense neutrino gases.
 Home-page: https://github.com/mikeduan/fowdr.git
 Author: Huaiyu Duan
@@ -16,12 +16,10 @@ License-File: LICENSE
 
 # FOWDR
 
-`fowdr` is a Python package for computing the dispersion relations (DRs) of the fast flavor oscillation waves in the dense neutrino gases that satisfy the following conditions. 
+`fowdr` is a Python package for computing the dispersion relations (DRs) of the fast flavor oscillation waves in dense 1D neutrino gases. Please see `fowdr.ipynb` (or `fowdr.pdf` if you don't use [Jupyter Notebook](https://jupyter.org)) under `doc` for how to use this package.
 
 To install, please type the following command in a terminal:  
 `python3 -m pip install --upgrade git+https://github.com/mikeduan/fowdr.git`
-
-Please see `fowdr.ipynb` (or `fowdr.pdf` if you don't use [Jupyter Notebook](https://jupyter.org)) under `doc` for how to use this package.
 
 This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of Nuclear Physics under Award Number DE-SC-0017803.
 
