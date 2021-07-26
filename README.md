@@ -4,7 +4,7 @@
 
 To install, simply type the following command in a terminal:  
 `python3 -m pip install --upgrade git+https://github.com/mikeduan/fowdr.git`  
-Or, you can download the source code, enter the `fowdr` directory, and execute the command `python3 -m pip install .` in a terminal.
+Or, you can download the source code, enter the `fowdr` directory, and execute the command "`python3 -m pip install .`" in a terminal.
 
 `fowder` is free to use under the MIT license. (See `LICENSE.txt` for details.)
 
