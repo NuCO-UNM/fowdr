@@ -529,13 +529,13 @@ def DR_complexK(G, num_pts=100, int_opts={}, rt_opts={}, shift=True, eps=1e-5):
         for i, sgn in enumerate([+1, -1]):
             nc, kc, wc = _extremalOmega(G, sgn, int_opts=int_opts, eps=eps) # extremal Omega points on the real branch
             if nc == None: # deep crossing, no extremal Omega point
-                if wx[i] != 0.0:
-                    ww = np.linspace(wx[i], 0, num_pts)
-                    kk = np.empty(num_pts, dtype=np.cdouble)
-                    kk[0] = kx[i]; kk[-1] = k0[i]
-                    kk[1:-1] = _cplx_K(ww[1:-1], G, kk[0]*(1+0.1j), int_opts=int_opts, rt_opts=rt_opts)
-                    dr.append((kk, ww))
-                    br.append(len(dr)-1)
+                assert wx[i] != 0.0, "Cannot handle the case where ELN crosses at u = 0."
+                ww = np.linspace(wx[i], 0, num_pts)
+                kk = np.empty(num_pts, dtype=np.cdouble)
+                kk[0] = kx[i]; kk[-1] = k0[i]
+                kk[1:-1] = _cplx_K(ww[1:-1], G, kk[0]*(1+0.1j), int_opts=int_opts, rt_opts=rt_opts)
+                dr.append((kk, ww))
+                br.append(len(dr)-1)
             else: # moderate crossing, two complex K branches
                 # first branch
                 ww = np.linspace(wc[0], 0, num_pts)
