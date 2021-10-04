@@ -1,4 +1,4 @@
-# FOWDR
+# FOWDR: Computing Dispersion Relations of 1D Fast Neutrino Oscillations
 
 `fowdr` is a Python package for computing the dispersion relations of the fast flavor oscillation waves in dense 1D neutrino gases. Please see the [Jupyter Notebooks](https://jupyter.org) under the directory `docs` for the implementation details and examples.
 
